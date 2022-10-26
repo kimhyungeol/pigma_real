@@ -1,0 +1,21 @@
+{% extends 'MTV/base.html' %}
+{% block content %}
+
+<div class="intro-head-description">
+    <div class="intro-inner">
+    <p class="intro-head-subhead">✨지금 <b>495,469명</b>이 뉴닉을 읽고 있어요.</p>
+    <p style="margin-top:1rem">세상 돌아가는 소식, 알고는 싶지만 신문 볼 새 없이 바쁜 게 우리 탓은 아니잖아요! <span class="desktop-block">월/화/수/목/금 아침마다 세상 돌아가는 소식을 메일로 받아보세요.</span></p>
+    <form class="subscribe"><div class="textfield"><input name="email" type="text" class="textfield-input" placeholder="이메일 주소" value=""></div>
+    <div class="textfield"><input name="name" type="text" class="textfield-input" placeholder="닉네임" value=""></div>
+    <div style="margin:.5rem 0 0"></div>
+    <div class="checkbox">
+    <input name="subscribeAgree" type="checkbox" id="subscribeAgree">
+    <label for="subscribeAgree">
+    <a style="display:inline;position:static;left:auto;cursor:pointer" rel="noopener noreferrer">개인정보 수집·이용</a>에 동의합니다</label></div><div class="checkbox">
+    <input name="marketingAgree" type="checkbox" id="marketingAgree">
+    <label for="marketingAgree">
+    <a style="display:inline;position:static;left:auto;cursor:pointer" rel="noopener noreferrer">광고성 정보 수신</a>에 동의합니다</label></div>
+    <button class="subscribe-field-cta primary-button">PigmaMusic 구독하기</button></form>
+    </div>
+    </div>
+{% endblock %}
